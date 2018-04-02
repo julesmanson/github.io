@@ -1,0 +1,294 @@
+{
+  "open source": [
+    {
+      "text": "Brackets",
+      "href": "http://brackets.io"
+    },
+    {
+      "text": "WAMPSERVER",
+      "href": "http://www.wampserver.com/en/"
+    },
+    {
+      "text": "GitHub Deskto",
+      "href": "https://desktop.github.com"
+    }
+  ],
+  "commercial": [
+    {
+      "text": "Adobe Dreamweaver",
+      "href": "http://www.adobe.com/products/dreamweaver.html"
+    },
+    {
+      "text": "Adobe Illustrator",
+      "href": "http://www.adobe.com/products/illustrator.html"
+    },
+    {
+      "text": "Adobe Photoshop",
+      "href": "http://www.adobe.com/products/photoshop.html"
+    }
+  ],
+  "online editors": [
+    {
+      "text": "CODEPEN",
+      "href": "https://codepen.io"
+    },
+    {
+      "text": "JSFiddle",
+      "href": "https://jsfiddle.net"
+    },
+    {
+      "text": "Plunker",
+      "href": "https://plnkr.co"
+    },
+    {
+      "text": "JSON Online Editor",
+      "href": "https://jsoneditoronline.org"
+    },
+    {
+      "text": "FREE FORMATTER.COM",
+      "href": "https://www.freeformatter.com"
+    }
+  ],
+  "cloud store": [
+    {
+      "text": "Google Drive",
+      "href": "https://www.google.com/drive/"
+    },
+    {
+      "text": "Microsoft OneDrive",
+      "href": "https://onedrive.live.com/about/en-us/"
+    },
+    {
+      "text": "Box",
+      "href": "https://www.box.com/home"
+    },
+    {
+      "text": "Dropbox",
+      "href": "https://www.dropbox.com"
+    },
+    {
+      "text": "Apple iCloud",
+      "href": "https://www.icloud.com"
+    },
+    {
+      "text": "Adobe Document Cloudd",
+      "href": "https://acrobat.adobe.com/us/en/landing/tt/acrobat_index.html?WP=13"
+    }
+  ],
+  "cors/cdn data store": [
+    {
+      "text": "JSDelivr Open Source CDN",
+      "href": "https://www.jsdelivr.com"
+    },
+    {
+      "text": "JSONBIN.io",
+      "href": "https://jsonbin.io"
+    }
+  ],
+  "web design": [
+    {
+      "text": "Awesome List",
+      "href": "https://github.com/sindresorhus/awesome"
+    },
+    {
+      "text": "Google Web Fundamentals",
+      "href": "https://developers.google.com/web/"
+    },
+    {
+      "text": "Front-End Developer Handbook 2017",
+      "href": "https://frontendmasters.com/books/front-end-handbook/2017/"
+    },
+    {
+      "text": "Mozilla Technology",
+      "href": "https://www.mozilla.org/en-US/technology/"
+    },
+    {
+      "text": "Mozilla Technology",
+      "href": "https://stackexchange.com"
+    },
+    {
+      "text": "CodingForums.com",
+      "href": "https://www.codingforums.com"
+    },
+    {
+      "text": "Smashing Magazine",
+      "href": "https://www.smashingmagazine.com"
+    },
+    {
+      "text": "WebpageFX {SIX REVISIONS}",
+      "href": "WebpageFX {SIX REVISIONS}"
+    },
+    {
+      "text": "KHAN</strong>ACADEMY",
+      "href": "https://www.khanacademy.org"
+    }
+  ],
+  "html and css": [
+    {
+      "text": "Learn to Code HTML & CSS",
+      "href": "https://learn.shayhowe.com"
+    },
+    {
+      "text": "You-Dont-Need-Javascript",
+      "href": "https://github.com/you-dont-need/You-Dont-Need-JavaScript"
+    },
+    {
+      "text": "Can I use",
+      "href": "https://caniuse.com"
+    },
+    {
+      "text": "shouldiprefix",
+      "href": "href=\"http://shouldiprefix.com"
+    },
+    {
+      "text": "cssreference.io",
+      "href": "wwwhttp://cssreference.io"
+    },
+    {
+      "text": "MAGIC OF CSS",
+      "href": "http://adamschwartz.co/magic-of-css/"
+    },
+    {
+      "text": "CSS-TRICKS",
+      "href": "href=\"https://css-tricks.com"
+    },
+    {
+      "text": "INTERNETING IS HARD",
+      "href": "href=\"https://internetingishard.com"
+    },
+    {
+      "text": "GitHub Design essentials",
+      "href": "https://github.com/collections/design-essentials"
+    },
+    {
+      "text": "You-Dont-Need-JavaScript",
+      "href": "https://github.com/you-dont-need/You-Dont-Need-JavaScript"
+    },
+    {
+      "text": "CSS Protips",
+      "href": "https://github.com/AllThingsSmitty/css-protips"
+    },
+    {
+      "text": "WEBCOMPONENTS",
+      "href": "https://www.webcomponents.org"
+    }
+  ],
+  "javascript": [
+    {
+      "text": "he Modern JavaScript Tutorial",
+      "href": "http://javascript.info"
+    },
+    {
+      "text": "Exploring JS",
+      "href": "http://exploringjs.com"
+    },
+    {
+      "text": "Medium Javascript Scene",
+      "href": "https://medium.com/javascript-scene"
+    },
+    {
+      "text": "opensource.com Javascript",
+      "href": "https://opensource.com/tags/javascript"
+    },
+    {
+      "text": "30 seconds of code",
+      "href": "https://opensource.com/tags/javascript"
+    },
+    {
+      "text": "Dr Boolean Guide to Functional Programmnng",
+      "href": "href=\"Dr Boolean Guide to Functional Programmnngdetails"
+    },
+    {
+      "text": "You-Dont-Know-JS",
+      "href": "https://github.com/getify/You-Dont-Know-JS"
+    },
+    {
+      "text": "Functional-Light JavaScript",
+      "href": "https://github.com/getify/Functional-Light-JS"
+    },
+    {
+      "text": "Learning JavaScript Design Patterns",
+      "href": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+    }
+  ],
+  "graphics": [
+    {
+      "text": "GeoGebra",
+      "href": "http://www.codingmath.com"
+    },
+    {
+      "text": "MDN Canvas API",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
+    },
+    {
+      "text": "HTML5 CANVAS TUTORIALS",
+      "href": "http://www.html5canvastutorials.com"
+    }
+  ],
+  "web standards": [
+    {
+      "text": "World Wide Web Consortium (W3C)",
+      "href": "https://www.w3.org"
+    },
+    {
+      "text": "WHATWG Web Standards",
+      "href": "https://whatwg.org/"
+    },
+    {
+      "text": "Standard ECMA-262",
+      "href": "https://www.ecma-international.org/publications/standards/Ecma-262.htm"
+    },
+    {
+      "text": "W3C Document Object Model",
+      "href": "wwwhttps://www.w3.org/DOM/"
+    },
+    {
+      "text": "KHRONOS WebGL",
+      "href": "https://www.khronos.org/webgl/"
+    },
+    {
+      "text": "JSON Schema",
+      "href": "http://json-schema.org"
+    }
+  ],
+  "blogs to follow": [
+    {
+      "text": "2ality (Axel Rauschmayer)",
+      "href": "http://2ality.com\">"
+    },
+    {
+      "text": "LEA VEROU",
+      "href": "http://lea.verou.me"
+    },
+    {
+      "text": "A LIST APART",
+      "href": "href=\"https://alistapart.com"
+    },
+    {
+      "text": "meyerweb.com",
+      "href": "https://meyerweb.com"
+    },
+    {
+      "text": "Douglas Crockford's World Wide Web",
+      "href": "https://www.crockford.com"
+    },
+    {
+      "text": "https://24ways.org",
+      "href": "24 WAYS"
+    }
+  ],
+  "template": [
+    {
+      "text": "abc",
+      "href": "www"
+    },
+    {
+      "text": "abc",
+      "href": "www"
+    },
+    {
+      "text": "abc",
+      "href": "www"
+    }
+  ]
+}

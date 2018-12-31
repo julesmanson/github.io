@@ -1,171 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Jules Manson Portfolio and Engineering Goodies</title>
-		<meta charset="utf-8">
-	</head>
-	<body id="top">
-		<header>
-			<div id="site">
-				<a href="index.html">
-					<h5>julesmanson<b>&middot;</b>github<b>&middot;</b>io</h5>
-					<h6>portfolio and engineering goodies</h6>
-				</a>
-			</div>
-			<nav>
-			</nav>
-		</header>
-		<div id="content">
-			<main>
-				<article>
-				</article>
-			</main>
-			<aside id="aside1">
-				<h6>next in series</h6>
-					<p><a href="#11">Another Post</a>.</p>
-					<p><a href="#12">Another Post</a>.</p>
-					<p><a href="#13">Another Post</a>.</p>
-					<p><a href="#14">Another Post</a>.</p>
-					<hr>
-					<h6>related</h6>
-					<p><a href="#11">Another Post</a>.</p>
-					<p><a href="#12">Another Post</a>.</p>
-					<p><a href="#13">Another Post</a>.</p>
-					<p><a href="#14">Another Post</a>.</p>
-					<hr>
-					<h6>around the web</h6>
-					<p><a href="#11">Another Post</a>.</p>
-					<p><a href="#12">Another Post</a>.</p>
-					<p><a href="#13">Another Post</a>.</p>
-					<p><a href="#14">Another Post</a>.</p>
-			</aside>
-			<aside id="aside2">
-				<h6>about me</h6>
-				<p>I really don't have floppy ears. That's my by best friend Miles. I am an engineer skilled in mechanical design with <a target="_blank" href="https://www.autodesk.com/products/autocad/overview">AutoCAD</a>, <a target="_blank" href="https://www.autodesk.com/products/fusion-360/overview">Fusion 360</a>, <a target="_blank" href="https://www.autodesk.com/products/inventor/overview">Inventor</a>, <a target="_blank" href="http://www.solidworks.com">SolidWorks</a>, and <a target="_blank" href="https://www.3ds.com/products-services/catia/products/v5/portfolio/">CATIA V5</a>. I am also skilled in geometric dimensioning and tolerancing by <a target="_blank" href="https://www.asme.org/products/codes-standards/y145-2009-dimensioning-and-tolerancing">ASME Y14.5</a>. In my free time I love coding frontend web applications that help find solutions to engineering problems.</p>
-				<p>This entire site was hand coded using only <a target="_blank" href="http://vanilla-js.com">Vanilla Javascript</a> and raw <a target="_blank" href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a>. This means that no templates, frameworks, libraries, preprocessors, or transpilers were used unless otherwise listed under <a title="go to credits" href="#credits">credits</a> below. However all best practices including functional programming and applicable modern programming design patterns (see <a target="_blank" href="https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8">Design Patterns</a> by <i>Gang of Four</i>) were observed. To learn more about me please view my resume in <a href="#">contact page</a>.</p>
-				<hr>
-				<h6>Resources I Use:</h6>
-				<h6>open source tools</h6>
+    
+<head>
+    <title>functional programming</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/master.css">
+    <script type="module" src="scripts/application.js"></script>
+<!--		<script src="scripts/testcases.js"></script>-->
+<!--		<script src="scripts/library.js"></script>-->
+    <!--<script src="scripts/dom.js"></script>-->
+    <!--<script src="scripts/application.js"></script>-->
+<!--		<script src="scripts/sandbox.js"></script>-->
+<!--		<script src="scripts/demos.js"></script>-->
+    <script src="scripts/vpdims.js"></script>
+    <script defer src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+</head>
+    
+<body>
+        
+<header>
+	<menu id="meta">
+		<ul class="stack">
+			<li><a href=#><ion-icon name="menu"></ion-icon></a></li> 
+			<li><a href=#><ion-icon name="settings"></ion-icon></a></li> 
+			<li><a href=#><ion-icon name="hammer"></ion-icon></a></li> 
+			<li><a href=#><ion-icon name="logo-github"></ion-icon></a></li> 
+		</ul>
+	</menu>
+    <div id="logo">
+        <h1 id="name"><a href=#>Flexbox<span id="dot">&middot;</span>Shell</a></h1>
+        <h2 id="byline">mobile-<span>f</span>irst responsive layout</h2><!-- fixes f in font displays wide width -->
+    </div>
+    <nav>
+		<ul class="stack" id="nav">
+            <li><a href=#><span class="fas fa-bars"></span></a></li>
+            <li><a href=#><span class="fas fa-home"></span>HOME</a></li>
+            <li><a href=#><span class="fas fa-coffee"></span>GUIDES</a></li> 
+            <li><a href=#><span class="fas fa-wrench"></span>TOOLS</a></li>
+            <li><a href=#><span class="fas fa-chalkboard-teacher"></span>DISCUSS</a></li>
+            <li><a href=#><span class="fas fa-user"></span>ABOUT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main><!-- semantics and flexbox container -->
+    <article>
+        <h1>This is a refactor of a CODEPEN: <a href="https://codepen.io/StrengthandFreedom/pen/zEbwpM/?editors=0010" target="_blank">Get Viewport Dimensions Version 2 (complete)</a> by <a href="https://codepen.io/StrengthandFreedom/" target="_blank">David</a></h1>
+        <h2>The original article is: <a href="https://techstacker.com/building-a-get-viewport-dimensions-app-with-vanilla/ttDuoXKkNyx6Yqz5X" target="_blank">Building a “Get Viewport Dimensions” App with Vanilla JavaScript</a> by <a href="https://techstacker.com/users/show/u/david" target="_blank">David at TechStacker</a>.</h2>
+        <p>This was an outstanding script and post. I especially appreciated how David (the contributor) walks the reader step-by-step in very clear language. First with just the minimum basics to get the script running then an optimized version which gives us a first taste (if you're a novice) of functional programming with throttling decorators for running asynchronous calls. There was nothing wrong with the script from my point of view but I refactored it to add functionality and style. I also prefer wrapping larger chunks of code into smaller ones. This leads me to create many more functions and objects for easier maintenance and self-commenting. The refactored script reflects this.</p>
+        <p>Added functionality are names of device targets which can easily be modified or expanded by editing the <code>getTarget</code> function. This can be removed by editing the <code>getData</code> and <code>setData</code> functions. Shell container styles can be edited by modifying <code>#viewportdata</code>, <code>#dims</code>, and <code>#target</code> in the CSS file</p>
+		<p>Other added functionality is the ability to stop the script by clicking once on the dims when they display. It works by wrapping the dims and target subcontainers (shell in the Javascript) with an anchor tag (displayed as a block) and adding a very basic <code>onclick</code> event that calls a function <code>endTask</code>. That function uses <code>removeEventListener</code> to remove the <code>addEventListener</code> that invokes <code>throttleSetView</code>.</p>
+		<p>Everything in header and below is just an HTML template used to demonstrate how this script might perform in a populated web page.</p>
+	</article>
+    <aside>
+        <h1>This is an ASIDE element with an H1 element</h1>
+			<h2>This is a subtitle with an H2 element</h2>
+				<summary>This is a SUMMARY element. Below is a naked UL element.</summary>
 				<ul>
-					<li><a target="_blank" href="https://inkscape.org/en/">INKSCAPE</a></li>
-					<li><a target="_blank" href="http://www.wampserver.com/en/">WAMPSERVER</a></li>
-					<li><a target="_blank" href="http://brackets.io ">Brackets</a></li>
-					<li><a target="_blank" href="https://desktop.github.com">GitHub Desktop</a></li>
+					<li>This is a plain text example.</li>
+					<li><a href=#>This is an A link example.</a></li>
+					<li>This is a <small>SMALL text</small> example.</li>
+					<li>This is an <i>ITALIC text</i> example.</li>
+					<li>This is an <em>EM text</em> example.</li>
+					<li>This is a <bold>BOLD text</bold> example.</li>
+					<li>This is a <strong>STRONG text</strong> example.</li>
+					<li>This is a <mark>MARK text</mark> example.</li>
 				</ul>
-				<h6>commercial</h6>
-				<ul>
-					<li><a target="_blank" href="http://www.adobe.com/products/dreamweaver.html">Adobe Dreamweaver</a></li>
-					<li><a target="_blank" href="http://www.adobe.com/products/illustrator.html">Adobe Illustrator</a></li>
-					<li><a target="_blank" href="http://www.adobe.com/products/photoshop.html">Adobe Photoshop</a></li>
-				</ul>
-				<h6>web services</h6>
-				<ul>
-					<li><a target="_blank" href="https://github.com">GitHub</a></li>
-					<li><a target="_blank" href="https://codepen.io">CODEPEN</a></li>
-					<li><a target="_blank" href="https://jsfiddle.net">JSFiddle</a></li>
-					<li><a target="_blank" href="https://plnkr.co">Plunker</a></li>
-					<li><a target="_blank" href="https://thimble.mozilla.org/en-US/">moz://a thimble</a></li>
-					<li><a target="_blank" href="http://dabblet.com">dabblet (Lea Verou)</a></li>
-					<li><a target="_blank" href="https://www.tutorialspoint.com/codingground.htm">Coding Ground</a></li>
-					<li><a target="_blank" href="https://www.jsdelivr.com">JSDelivr Open Source CDN</a></li>
-					<li><a target="_blank" href="https://repl.it">repl>it</a></li>
-				</ul>
-				<h6>cloud services</h6>
-				<ul>
-					<li><a target="_blank" href="https://www.google.com/drive/">Google Drive</a></li>
-					<li><a target="_blank" href="https://onedrive.live.com/about/en-us/">Microsoft OneDrive</a></li>
-					<li><a target="_blank" href="https://www.box.com/home">Box</a></li>
-					<li><a target="_blank" href="https://www.dropbox.com">Dropbox</a></li>
-					<li><a target="_blank" href="https://www.icloud.com">Apple iCloud</a></li>
-					<li><a target="_blank" href="https://acrobat.adobe.com/us/en/landing/tt/acrobat_index.html?WP=13">Adobe Document Cloud</a></li>
-				</ul>
-				<h6>web design</h6>
-				<ul>
-					<li><a target="_blank" href="https://github.com/sindresorhus/awesome">Awesome List (Sindre Sorhus)</a></li>
-					<li><a target="_blank" href="https://developers.google.com/web/fundamentals/">WebFundamentals</a></li>
-					<li><a target="_blank" href="https://frontendmasters.com/books/front-end-handbook/2017/">Front-End Developer Handbook 2017</a></li>
-					<li><a target="_blank" href="https://www.mozilla.org/en-US/technology/">Mozilla Technology</a></li>
-					<li><a target="_blank" href="https://stackexchange.com">Stack Exchange</a></li>
-					<li><a target="_blank" href="https://www.codingforums.com">CodingForums.com</a></li>
-					<li><a target="_blank" href="https://tutsplus.com">envatotuts+</a></li>
-					<li><a target="_blank" href="https://www.smashingmagazine.com">Smashing Magazine</a></li>
-					<li><a target="_blank" href="https://dzone.com">DZone Programming & DevOps</a></li>
-					<li><a target="_blank" href="https://www.tutorialspoint.com/index.htm">tutorialspoint</a></li>
-					<li><a target="_blank" href="https://www.webpagefx.com/blog/web-design/">WebpageFX {SIX REVISIONS}</a></li>
-					<li><a target="_blank" href="https://www.khanacademy.org"><strong>KHAN</strong>ACADEMY</a></li>
-				</ul>
-				<h6>html and css</h6>
-				<ul>
-					<li><a target="_blank" href="https://learn.shayhowe.com">Learn to Code HTML & CSS</a></li>
-					<li><a target="_blank" href="https://github.com/you-dont-need/You-Dont-Need-JavaScript">You-Dont-Need-Javascript</a></li>
-					<li><a target="_blank" href="https://caniuse.com">Can I use</a></li>
-					<li><a target="_blank" href="http://shouldiprefix.com">shouldiprefix</a></li>
-					<li><a target="_blank" href="http://cssreference.io">cssreference.io</a></li>
-					<li><a target="_blank" href="http://adamschwartz.co/magic-of-css/">MAGIC OF CSS</a></li>
-					<li><a target="_blank" href="https://css-tricks.com">CSS-TRICKS</a></li>
-					<li><a target="_blank" href="https://internetingishard.com">INTERNETING IS HARD</a></li>
-					<li><a target="_blank" href="https://github.com/collections/design-essentials">GitHub Design essentials</a></li>
-					<li><a target="_blank" href="https://github.com/you-dont-need/You-Dont-Need-JavaScript">You-Dont-Need-JavaScript</a></li>
-					<li><a target="_blank" href="https://github.com/AllThingsSmitty/css-protips">CSS Protips</a></li>
-					<li><a target="_blank" href="https://www.webcomponents.org">WEBCOMPONENTS</a></li>
-				</ul>
-				<h6>javascript</h6>
-				<ul>
-					<li><a target="_blank" href="http://javascript.info.">The Modern JavaScript Tutorial</a></li>
-					<li><a target="_blank" href="http://exploringjs.com">Exploring JS</a></li>
-					<li><a target="_blank" href="https://medium.com/javascript-scene">Medium Javascript Scene</a></li>
-					<li><a target="_blank" href="https://opensource.com/tags/javascript">opensource.com Javascript</a></li>
-					<li><a target="_blank" href="https://chalarangelo.github.io/30-seconds-of-code/">30 seconds of code</a></li>
-					<li><a target="_blank" href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a></li>
-					<li><a target="_blank" href="https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details">Dr Boolean Guide to Functional Programmnng</a></li>
-					<li><a target="_blank" href="https://github.com/getify/You-Dont-Know-JS">You-Dont-Know-JS</a></li>
-				</ul>
-				<h6>graphics</h6>
-				<ul>
-					<li><a target="_blank" href="https://www.geogebra.org">GeoGebra</a>
-					</li>
-					<li><a target="_blank" href="http://www.codingmath.com">Coding Math</a>
-					</li>
-					<li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">MDN Canvas API</a>
-					</li>
-					<li><a target="_blank" href="http://www.html5canvastutorials.com">HTML5 CANVAS TUTORIALS</a>
-					</li>
-				</uL>
-				<h6>web standards</h6>
-				<ul>
-					<li><a target="_blank" href="https://www.w3.org">World Wide Web Consortium (W3C)</a></li>
-					<li><a target="_blank" href="https://whatwg.org/">WHATWG Web Standards</a></li>
-					<li><a target="_blank" href="https://www.ecma-international.org/publications/standards/Ecma-262.htm">Standard ECMA-262</a></li>
-					<li><a target="_blank" href="https://www.w3.org/DOM/">W3C Document Object Model</a></li>
-					<li><a target="_blank" href="https://www.khronos.org/webgl/">KHRONOS WebGL</a></li>
-				</uL>
-				<h6>blogs to follow</h6>
-				<ul>
-					<li><a target="_blank" href="http://2ality.com">2ality (Axel Rauschmayer)</a></li>
-					<li><a target="_blank" href="http://lea.verou.me">LEA VEROU</a></li>
-					<li><a target="_blank" href="https://alistapart.com">A LIST APART</a></li>
-					<li><a target="_blank" href="https://meyerweb.com">meyerweb.com</a></li>
-					<li><a target="_blank" href="https://www.crockford.com">Douglas Crockford's World Wide Web</a></li>
-					<li><a target="_blank" href="https://24ways.org">24 WAYS</a></li>
-				</uL>
-				<h6>inspiration</h6>
-				<ul>
-					<li><a target="_blank" href="https://www.abeautifulsite.net">abeautifulsite</a></li>
-					<li><a target="_blank" href="https://www.awwwards.com">AWWWARDS</a></li>
-				</uL>
-				<hr><a name="credits"></a><h6>credits</h6>
-				<p>Site hosted at <a target="_blank" href="https://pages.github.com">GitHub Pages</a>.</p>
-				<p><a target="_blank" href="https://necolas.github.io/normalize.css/">Normalize.css</a> is a tiny library used to facilitate consistent CSS rendering among the major browsers.</p>
-			</aside>
-		</div>
-		<div class="tab tab-rs" id="elevator"><a href="#top" title="top of page">TOP</a></div>
-		<footer>
-			<section>
-				Powered by Javascript and proudly hosted at <a target="_blank" href="https://pages.github.com">GitHub</a>.<br>
-				&copy; 2017 Jules Manson<br>
-			</section>
-		</footer>
-		<script src="scripts/workbench2.js"></script>
-	</body>
+				<p>This is a P element.</p>
+				<q>This is a short Q element.</q>
+				<p>This is another P element. An HR element always separate Posts within a major structure.</p>
+		<hr>
+			<h2>This is a second post with an H2 element</h2>
+				<p>This is a P element.</p>
+				<p>This is another P element.</p>
+    </aside>
+	<aside>
+		<h1>This is an H1 element inside an Aside container</h1>
+		<h2>This is an H2 element</h2>
+		<h3>This is an H3 element</h3>
+		<h4>This is an H4 element</h4>
+		<h5>This is an H5 element</h5>
+		<h6>This is an H6 element</h6>
+		<p>This is a P element.</p>
+		<p>This is another P element.</p>
+        <dl>
+            <dt>This is a DT title</dt>
+            <dd><a href=#>link 1</a></dd> 
+            <dd><a href=#>link 2</a></dd> 
+        </dl>
+    </aside>
+</main>
+
+<footer>
+	<div class="elevator" id="up"><a href="#top" title="Going up?">ELEVATOR</a></div>
+	<section>
+		<dl>
+			<dt>Web Design</dt>
+			<dd><a href="https://developers.google.com/web/" target="_blank">Google Web Fundamentals</a></dd> 
+			<dd><a href="https://frontendmasters.com/books/front-end-handbook/2017/" target="_blank">Front-End Developer Handbook 2017</a></dd>
+			<dd><a href="https://www.mozilla.org/en-US/technology/" target="_blank">Mozilla Technology</a></dd>
+			<dd><a href="https://www.smashingmagazine.com" target="_blank">lSmashing Magazine</a></dd>
+			<dd><a href="https://www.khanacademy.org" target="_blank"><strong>KHAN</strong>ACADEMY</a></dd> 
+			<dd><a href="https://internetingishard.com" target="_blank">link 3</a></dd>
+			<dd><a href="https://dev.to/" target="_blank">dev.to</a></dd>
+		</dl>
+		<dl>
+			<dt>HTML and CSS</dt>
+			<dd><a href="https://learn.shayhowe.com" target="_blank">Learn to Code HTML & CSS</a></dd> 
+			<dd><a href="wwwhttp://cssreference.io" target="_blank>link">cssreference.io</a></dd>
+			<dd><a href="http://adamschwartz.co/magic-of-css/" target="_blank">MAGIC OF CSS</a></dd> 
+			<dd><a href="https://css-tricks.com" target="_blank">CSS-TRICKS</a></dd>
+			<dd><a href="https://internetingishard.com" target="_blank">INTERNETING IS HARD</a></dd> 
+			<dd><a href="https://github.com/AllThingsSmitty/css-protips" target="_blank">CSS Protips</a></dd>
+			<dd><a href="https://refactoring.guru/" target="_blank">Refactoring Guru</a></dd>
+			<dd><a href=# target="_blank">link 2</a></dd>
+		</dl>
+		<dl>
+			<dt>Functional Javascript</dt>
+			<dd><a href="http://javascript.info" target="_blank">The Modern JavaScript Tutorial</a></dd>
+			<dd><a href="https://leanpub.com/javascriptallongesix" target="_blank">JavaScript Allonge</a></dd>
+			<dd><a href="https://github.com/getify/Functional-Light-JS" target="_blank">Functional Light</a></dd>
+			<dd><a href="http://speakingjs.com/es5/index.html" target="_blank">Speaking JavaScript</a></dd>
+			<dd><a href="https://leanpub.com/exploring-es6/" target="_blank">Exploring ES6</a></dd>
+			<dd><a href="https://github.com/getify/You-Dont-Know-JS" target="_blank">You-Dont-Know-JS</a></dd>
+			<dd><a href="https://mostly-adequate.gitbooks.io/mostly-adequate-guide" target="_blank">Professor Frisby's Mostly Adequate Guide to Functional Programming</a></dd>
+		</dl>
+		<dl>
+			<dt>GitHUb Repos</dt>
+			<dd><a href="https://github.com/sindresorhus/awesome" target="_blank">Awesome List</a></dd> 
+			<dd><a href="https://frontendmasters.com/books/front-end-handbook/2017/" target="_blank">Front-End Developer Handbook 2017</a></dd>
+			<dd><a href="https://github.com/you-dont-need/You-Dont-Need.com" target="_blank">You-Dont-Need.com</a></dd>
+			<dd><a href="https://github.com/collections/design-essentials" target="_blank">GitHub Design essentials</a></dd>
+			<dd><a href="https://opensource.com/tags/javascript" target="_blank">30 seconds of code</a></dd>
+			<dd><a href="https://github.com/dkraczkowski/dom.js" target="_blank">domjs</a></dd>
+			<dd><a href="https://github.com/georapbox/jsEssentials" target="_blank">jsEssentials</a></dd>
+			<dd><a href="https://github.com/thedaviddias/Front-End-Checklist" target="_blank">Front-End-Checklist</a></dd>
+			<dd><a href="https://github.com/thedaviddias/Front-End-Checklist" target="_blank">Front-End-Checklist</a></dd>
+			<dd><a href="https://github.com/thedaviddias/Front-End-Checklist" target="_blank">Front-End-Checklist</a></dd>
+		</dl>
+		<dl>
+			<dt>Web Standards</dt>
+			<dd><a href="https://www.w3.org" target="_blank">World Wide Web Consortium (W3C)</a></dd>
+			<dd><a href="https://whatwg.org/" target="_blank">WHATWG Web Standards</a></dd>
+			<dd><a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" target="_blank">Standard ECMA-262</a></dd>
+			<dd><a href="wwwhttps://www.w3.org/DOM/" target="_blank">W3C Document Object Model</a></dd>
+			<dd><a href=https://www.khronos.org/webgl/ target="_blank">KHRONOS WebGL</a></dd>
+			<dd><a href=http://json-schema.org target="_blank">JSON Schema</a></dd>
+		</dl>
+		<dl>
+			<dt>People to follow</dt>
+			<dd><a href="https://medium.com" target="_blank">Medium</a></dd>
+			<dd><a href="https://medium.com/@_ericelliott" target="_blank">Eric Elliot @Medium</a></dd>
+			<dd><a href="http://2ality.com" target="_blank">2ality (Axel Rauschmayer)</a></dd>
+			<dd><a href="http://lea.verou.me" target="_blank">LEA VEROU</a></dd>
+			<dd><a href="https://alistapart.com" target="_blank">A LIST APART</a></dd>
+			<dd><a href="https://meyerweb.com" target="_blank">meyerweb.com</a></dd>
+			<dd><a href="https://www.crockford.com" target="_blank">Douglas Crockford's World Wide Web</a></dd>
+			<dd><a href="https://24ways.org" target="_blank">24 WAYS</a></dd>
+		</dl>
+		<dl>
+			<dt>Online Tools</dt>
+			<dd><a href="https://codepen.io" target="_blank">CODEPEN</a></dd>
+			<dd><a href="https://jsfiddle.net" target="_blank">JSFiddle</a></dd>
+			<dd><a href="https://plnkr.co" target="_blank">Plunker</a></dd>
+			<dd><a href="https://jsoneditoronline.org" target="_blank">JSON Online Editor</a></dd>
+			<dd><a href="https://www.freeformatter.com" target="_blank">FREEFORMATTER.COM</a></dd>
+			<dd><a href="https://autoprefixer.github.io" target="_blank">Autoprefixer CSS</a></dd>
+			<dd><a href="https://github.com/" target="_blank">GitHub</a></dd>
+			<dd><a href=# target="_blank">link</a></dd>
+		</dl>
+	</section>
+	<hr>
+	<menu id="social">
+		<ul class="stack">
+			<li><a href=#><ion-icon name="logo-twitter"></ion-icon></a></li>
+			<li><a href=#><ion-icon name="logo-facebook"></ion-icon></a></li>
+			<li><a href=#><ion-icon name="logo-reddit"></ion-icon></a></li>
+			<li><a href=#><ion-icon name="logo-linkedin"></ion-icon></a></li>
+			<li><a href=#><ion-icon name="logo-github"></ion-icon></a></li> 
+		</ul>
+	</menu>
+	<div><small id="copyright">&copy; 2019 <a href="https://codepen.io/" target="_blank">jules manson</a></small></div>
+</footer>
+    
+<script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+    
+</body>
 </html>
- 
+
+        <!--
+
+        EXTERNAL RESOURCES AND NOTES
+
+        <script defer src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+        Normalize
+        Autoprefixer
+        http://getskeleton.com/ (@media)
+        https://www.invisionapp.com/inside-design/designers-favorite-typefaces/ (fonts)
+        https://fontawesome.com/ (icons)
+
+        -->

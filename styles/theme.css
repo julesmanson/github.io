@@ -1,0 +1,54 @@
+/********** THEME (STATIC COLORS, FONTS, AND BORDERS) **********/
+
+/***** THEME (STATIC COLORS AND BORDERS) *****/
+
+body {
+    color: var(--bod-color);
+    background: var(--bod-bgcolor);
+}
+header, footer {
+    background: var(--con-bgcolor);
+	border: var(--border);
+	overflow: hidden;
+}
+main > * {background: var(--fea-col);}
+
+@media (max-width: 767px) {/* mobile */
+	main > *:not(:last-child){border-bottom: 10px solid var(--con-bgcolor);}
+}
+@media (min-width: 768px) and (max-width: 991px) {/* tablet */
+	main > aside:first-of-type {border-right: 5px solid var(--con-bgcolor);}
+	main > aside:last-of-type {border-left: 5px solid var(--con-bgcolor);}
+	main > article:first-of-type {border-bottom: 10px solid var(--con-bgcolor);}
+}
+
+/***** OVERALL FONT PROPERTIES *****/
+
+html {font-size: var(--base);}
+body {font: 100 calc(var(--spc) * 1.6)/1.5 var(--family);}
+@media (min-width: 992px) {/* desktop */ 
+	main > article {
+		color: var(--bod-bgcolor);
+		background: var(--bod-color);
+	}
+	hr {
+		color: var(--con-color);
+	}
+}
+h1{font-size: calc(var(--spc) * 2.0);}
+h2{font-size: calc(var(--spc) * 1.8);}
+h3{font-size: calc(var(--spc) * 1.6);}
+h4{font-size: calc(var(--spc) * 1.4);}
+h5{font-size: calc(var(--spc) * 1.2);}
+h6{font-size: calc(var(--spc) * 1.0);}
+
+strong, b, dt, h1, h2, h3, h4, h5, h6 {font-weight: bold;}
+mark {padding: 0 var(--spc-xs);}
+strong {font-family: monospace;}
+em {
+	font-family: Muli, cursive;
+	font-style: italic;
+	font-weight: 200;
+	margin: 0 var(--spc-xs);
+}
+code {font-weight: 100;}

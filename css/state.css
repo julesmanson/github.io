@@ -1,0 +1,35 @@
+/********** STATE (INTERFACE EVENTS) **********/
+
+/***** ANIMATION *****/
+
+html {scroll-behavior: smooth;}
+
+#logo {transition: var(--ani-slo-io);}
+
+#nav a:hover {
+	font-size: calc(var(--spc-lg) * 1);
+	transition: var(--ani-fst-io);
+}
+
+.elevator a, .elevator a:visited {
+	transition: opacity .5s ease-in-out;
+}
+
+/***** PSUEDO EFFECTS COLORS (ANCHORS) *****/
+
+article a, article a:visited {
+	color: var(--a-lnk);
+}
+* a, * a:visited, .elevator a, .elevator a:visited {
+	color: var(--bod-color);
+}
+* a:hover, article a:hover, .elevator a:hover {
+	color: var(--a-hov);
+}
+* a:active, article a:active, .elevator a:active {
+	color: var(--a-act);
+}
+
+nav a {background: var(--bod-bgcolor);}
+nav a:hover {background: var(--nav-a-hov-bg);}
+nav a:active {background: var(--nav-a-act-bg);}

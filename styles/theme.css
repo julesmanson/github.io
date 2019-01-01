@@ -25,7 +25,7 @@ main > * {background: var(--fea-col);}
 /***** OVERALL FONT PROPERTIES *****/
 
 html {font-size: var(--base);}
-body {font: 100 calc(var(--spc) * 1.6)/1.5 var(--family);}
+body {font: 100 calc(var(--spc) * 1)/1.5 var(--family);}
 @media (min-width: 992px) {/* desktop */ 
 	main > article {
 		color: var(--bod-bgcolor);

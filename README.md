@@ -1,1 +1,1 @@
-Nothing to see here. This is just my repository for my personal oonline portfolio and engineering apps I created.
+Nothing to see here. This is just my repository for my personal online portfolio and engineering apps I created.

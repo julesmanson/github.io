@@ -1,0 +1,30 @@
+{
+    "group1 template": [
+		{
+			"text": "abc",
+			"href": "www"
+		},
+		{
+			"text": "abc",
+			"href": "www"
+		},
+		{
+			"text": "abc",
+			"href": "www"
+		}
+	],
+    "group2 template": [
+		{
+			"text": "abc",
+			"href": "www"
+		},
+		{
+			"text": "abc",
+			"href": "www"
+		},
+		{
+			"text": "abc",
+			"href": "www"
+		}
+	]
+}

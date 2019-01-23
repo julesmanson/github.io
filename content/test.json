@@ -1,0 +1,14 @@
+{
+	"task": "Test XHR GET and Fetch JSON Data",
+	"datatype": "json",
+	"root": "https://julesmanson.github.io/",
+	"branch": "content/",
+	"path": "https://julesmanson.github.io/content/test.json",
+	"cors": "enabled",
+	"host": "GitHub",
+	"validated": "https://jsonlint.com/",
+	"array": ["a", "b", "c"],
+	"object": {"0": "a", "1": "b", "2": "c"},
+	"arrayofobjects": [{"0": "a"}, {"1": "b"}, {"c": "2"}],
+	"objectofarrays": {"a": ["0", "1", "2"], "b": ["3", "4", "5"], "c": ["6", "7", "8"]}
+}

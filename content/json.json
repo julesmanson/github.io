@@ -11,7 +11,7 @@
 	"full-path": "https://julesmanson.github.io/content/test.json",
 	"data-structure": "json",
 	"size": "626 Bytes",
-	"lines": "19",
+	"lines": "20",
 	"validated": "https://jsonlint.com/",
 	"array": ["a", "b", "c"],
 	"object": {"0": "a", "1": "b", "2": "c"},

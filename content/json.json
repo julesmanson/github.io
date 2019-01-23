@@ -1,4 +1,3 @@
-
 {
 	"task": "Test XHR GET and Fetch JSON Data",
 	"subtask": "Handling Server Sent JSON Data",
@@ -11,7 +10,7 @@
 	"full-path": "https://julesmanson.github.io/content/test.json",
 	"data-structure": "json",
 	"size": "626 Bytes",
-	"lines": "20",
+	"lines": "19",
 	"validated": "https://jsonlint.com/",
 	"array": ["a", "b", "c"],
 	"object": {"0": "a", "1": "b", "2": "c"},

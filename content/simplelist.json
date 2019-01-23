@@ -1,34 +1,34 @@
 {
-    {
-			"text": "HTTP Status Codes",
-			"href": "https://www.restapitutorial.com/httpstatuscodes.html#"
-		},
-		{
-			"text": "Introduction to XMLHttpRequest Level 2",
-			"href": "https://dev.opera.com/articles/xhr2/"
-		},
-		{
-			"text": "DOM Access Control Using Cross-Origin Resource Sharing",
-			"href": "https://dev.opera.com/articles/dom-access-control-using-cors/"
-		},
-		{
-			"text": "Cross-Origin Resource Sharing (CORS)",
-			"href": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"
-		},
-		{
-			"text": "Response by StackExchange",
-			"href": "https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call"
-		},
-		{
-			"text": "abc",
-			"href": "www"
-		},
-		{
-			"text": "abc",
-			"href": "www"
-		},
-		{
-			"text": "abc",
-			"href": "www"
-		}
+    	{
+		"text": "HTTP Status Codes",
+		"href": "https://www.restapitutorial.com/httpstatuscodes.html#"
+	},
+	{
+		"text": "Introduction to XMLHttpRequest Level 2",
+		"href": "https://dev.opera.com/articles/xhr2/"
+	},
+	{
+		"text": "DOM Access Control Using Cross-Origin Resource Sharing",
+		"href": "https://dev.opera.com/articles/dom-access-control-using-cors/"
+	},
+	{
+		"text": "Cross-Origin Resource Sharing (CORS)",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"
+	},
+	{
+		"text": "Response by StackExchange",
+		"href": "https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call"
+	},
+	{
+		"text": "abc",
+		"href": "www"
+	},
+	{
+		"text": "abc",
+		"href": "www"
+	},
+	{
+		"text": "abc",
+		"href": "www"
+	}
 }

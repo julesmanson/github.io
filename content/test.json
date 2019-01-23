@@ -1,7 +1,7 @@
 {
 	"task": "Test XHR GET and Fetch JSON Data",
 	"datatype": "json",
-	"size": "522 bytes",
+	"size": "509 bytes",
 	"root": "https://julesmanson.github.io/",
 	"branch": "content/",
 	"path": "https://julesmanson.github.io/content/test.json",

@@ -9,7 +9,7 @@
 	"root": "https://julesmanson.github.io/",
 	"full-path": "https://julesmanson.github.io/content/test.json",
 	"data-structure": "json",
-	"size": "666 Bytes",
+	"size": "626 Bytes",
 	"lines": "19",
 	"validated": "https://jsonlint.com/",
 	"array": ["a", "b", "c"],

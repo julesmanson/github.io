@@ -9,4 +9,4 @@
 		<p>Other added functionality is the ability to stop the script by clicking once on the dims when they display. It works by wrapping the dims and target subcontainers (shell in the Javascript) with an anchor tag (displayed as a block) and adding a very basic <code>onclick</code> event that calls a function <code>endTask</code>. That function uses <code>removeEventListener</code> to remove the <code>addEventListener</code> that invokes <code>throttleSetView</code>.</p>
 		<p>Everything in header and below is just an HTML template used to demonstrate how this script might perform in a populated web page.</p>
 		}
- ]
+}

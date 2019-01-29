@@ -1,5 +1,6 @@
-<h1>HTTP Request</h1>
-        <h2>HTTP GET Crash Course</h2>
+<article>
+        <h1>HTTP Request</h1>
+        <h2>AJAX Crash Course</h2>
         <button id="button">Get JSON Data</button>
         <h1>This is a refactor of a CODEPEN: <a href="https://codepen.io/StrengthandFreedom/pen/zEbwpM/?editors=0010" target="_blank">Get Viewport Dimensions Version 2 (complete)</a> by <a href="https://codepen.io/StrengthandFreedom/" target="_blank">David</a></h1>
         <h2>The original article is: <a href="https://techstacker.com/building-a-get-viewport-dimensions-app-with-vanilla/ttDuoXKkNyx6Yqz5X" target="_blank">Building a “Get Viewport Dimensions” App with Vanilla JavaScript</a> by <a href="https://techstacker.com/users/show/u/david" target="_blank">David at TechStacker</a>.</h2>

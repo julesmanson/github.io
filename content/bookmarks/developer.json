@@ -93,6 +93,9 @@
 		}
 	],
 	"app design": [{
+			"text": "Single page apps in depth",
+			"href": "http://singlepageappbook.com/"
+		},{
 			"text": "Google Web Fundamentals",
 			"href": "https://developers.google.com/web/"
 		},

@@ -1,3 +1,3 @@
 {
-	"social": "< ul class = 'stack' > <li > < a href = # > < ion - icon name = 'logo-twitter' > < /ion-icon></a > < /li> <li > < a href = # > < ion - icon name = 'logo-facebook' > < /ion-icon></a > < /li> <li > < a href = # > < ion - icon name = 'logo-reddit' > < /ion-icon></a > < /li> <li > < a href = # > < ion - icon name = 'logo-linkedin' > < /ion-icon></a > < /li> <li > < a href = # > < ion - icon name = 'logo-github' > < /ion-icon></a > < /li>  </ul>"
+	"social": "<menu id='social'> < ul class = 'stack' > <li > < a href = # > < ion - icon name = 'logo-twitter' > < /ion-icon></a > < /li> <li > < a href = # > < ion - icon name = 'logo-facebook' > < /ion-icon></a > < /li> <li > < a href = # > < ion - icon name = 'logo-reddit' > < /ion-icon></a > < /li> <li > < a href = # > < ion - icon name = 'logo-linkedin' > < /ion-icon></a > < /li> <li > < a href = # > < ion - icon name = 'logo-github' > < /ion-icon></a > < /li>  </ul> </menu>"
 }

@@ -113,6 +113,9 @@
 		}
 	],
 	"html and css": [{
+			"text": "Learn CSS Layout",
+			"href": "http://book.mixu.net/css/"
+		},{
 			"text": "INTERNETING IS HARD",
 			"href": "https://internetingishard.com"
 		},

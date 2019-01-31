@@ -1,5 +1,6 @@
 {
-	"open source": [{
+	"open source": [
+		{
 			"text": "Brackets",
 			"href": "http://brackets.io"
 		},
@@ -12,7 +13,8 @@
 			"href": "https://desktop.github.com"
 		}
 	],
-	"commercial": [{
+	"commercial": [
+		{
 			"text": "Adobe Dreamweaver",
 			"href": "http://www.adobe.com/products/dreamweaver.html"
 		},
@@ -25,7 +27,8 @@
 			"href": "http://www.adobe.com/products/photoshop.html"
 		}
 	],
-	"cloud store": [{
+	"cloud store": [
+		{
 			"text": "Google Drive",
 			"href": "https://www.google.com/drive/"
 		},
@@ -50,7 +53,8 @@
 			"href": "https://www.icloud.com"
 		}
 	],
-	"online editors": [{
+	"online editors": [
+		{
 			"text": "CODEPEN",
 			"href": "https://codepen.io"
 		},
@@ -79,7 +83,8 @@
 			"href": "https://jsoneditoronline.org"
 		}
 	],
-	"cdn cors store": [{
+	"cdn cors store": [
+		{
 			"text": "JSDelivr Open Source CDN",
 			"href": "https://www.jsdelivr.com"
 		},
@@ -92,10 +97,12 @@
 			"href": "https://pages.github.com/"
 		}
 	],
-	"app design": [{
+	"app design": [
+		{
 			"text": "Single page apps in depth",
 			"href": "http://singlepageappbook.com/"
-		},{
+		},
+		{
 			"text": "Google Web Fundamentals",
 			"href": "https://developers.google.com/web/"
 		},
@@ -112,7 +119,8 @@
 			"href": "https://www.smashingmagazine.com"
 		}
 	],
-	"html and css": [{
+	"html and css": [
+		{
 			"text": "Learn CSS Layout",
 			"href": "http://book.mixu.net/css/"
 		},
@@ -149,7 +157,12 @@
 			"href": "http://shouldiprefix.com"
 		}
 	],
-	"javascript": [{
+	"javascript": [
+		{
+			"text": "You-Dont-Know-JS",
+			"href": "https://github.com/getify/You-Dont-Know-JS"
+		},
+		       {
 			"text": "You-Dont-Know-JS",
 			"href": "https://github.com/getify/You-Dont-Know-JS"
 		},
@@ -194,7 +207,8 @@
 			"href": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"
 		}
 	],
-	"github repos": [{
+	"github repos": [
+		{
 			"text": "Awesome List",
 			"href": "https://github.com/sindresorhus/awesome"
 		},
@@ -231,7 +245,8 @@
 			"href": "https://github.com/leonardomso/33-js-concepts"
 		}
 	],
-	"web graphics": [{
+	"web graphics": [
+		{
 			"text": "GeoGebra",
 			"href": "http://www.codingmath.com"
 		},
@@ -244,7 +259,8 @@
 			"href": "http://www.html5canvastutorials.com"
 		}
 	],
-	"libraries/frameworks": [{
+	"libraries/frameworks": [
+		{
 			"text": "Vanilla Javascript",
 			"href": "http://www.codingmath.com"
 		},
@@ -261,7 +277,8 @@
 			"href": "https://ionicons.com/"
 		}
 	],
-	"web standards": [{
+	"web standards": [
+		{
 			"text": "World Wide Web Consortium (W3C)",
 			"href": "https://www.w3.org"
 		},
@@ -286,7 +303,8 @@
 			"href": "http://json-schema.org"
 		}
 	],
-	"http & serverside": [{
+	"http & serverside": [
+		{
 			"text": "HTTP Status Codes",
 			"href": "https://www.restapitutorial.com/httpstatuscodes.html#"
 		},
@@ -319,7 +337,8 @@
 			"href": "www"
 		}
 	],
-	"people & mags": [{
+	"people & mags": [
+		{
 			"text": "LEA VEROU",
 			"href": "http://lea.verou.me"
 		},
@@ -356,7 +375,8 @@
 			"href": "https://alistapart.com"
 		}
 	],
-	"learning to code": [{
+	"learning to code": [
+		{
 			"text": "Stack Overflow",
 			"href": "https://stackoverflow.com/"
 		},
@@ -405,7 +425,8 @@
 			"href": "https://www.freecodecamp.org"
 		}
 	],
-	"group1 template": [{
+	"group1 template": [
+		{
 			"text": "abc",
 			"href": "www"
 		},
@@ -418,7 +439,8 @@
 			"href": "www"
 		}
 	],
-	"group2 template": [{
+	"group2 template": [
+		{
 			"text": "abc",
 			"href": "www"
 		},

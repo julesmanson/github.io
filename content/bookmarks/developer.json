@@ -115,7 +115,8 @@
 	"html and css": [{
 			"text": "Learn CSS Layout",
 			"href": "http://book.mixu.net/css/"
-		},{
+		},
+			 {
 			"text": "INTERNETING IS HARD",
 			"href": "https://internetingishard.com"
 		},
@@ -149,6 +150,10 @@
 		}
 	],
 	"javascript": [{
+			"text": "You-Dont-Know-JS",
+			"href": "https://github.com/getify/You-Dont-Know-JS"
+		},
+		       {
 			"text": "You-Dont-Know-JS",
 			"href": "https://github.com/getify/You-Dont-Know-JS"
 		},

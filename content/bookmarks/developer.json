@@ -157,15 +157,20 @@
 			"href": "http://shouldiprefix.com"
 		}
 	],
-	"javascript": [
+	"javascript guides": [
 		{
-			"text": "You-Dont-Know-JS",
+			"text": "Dmitry Soshnikov ECMA Script",
 			"href": "https://github.com/getify/You-Dont-Know-JS"
 		},
-		       {
-			"text": "You-Dont-Know-JS",
+		{
+			"text": "Dmitry Soshnikov ECMA Script",
 			"href": "https://github.com/getify/You-Dont-Know-JS"
 		},
+		{
+			"text": "Mixu's Node book",
+			"href": "http://book.mixu.net/node/"
+		},
+		       
 		       {
 			"text": "You-Dont-Know-JS",
 			"href": "https://github.com/getify/You-Dont-Know-JS"
@@ -423,34 +428,6 @@
 		{
 			"text": "freecodecamp",
 			"href": "https://www.freecodecamp.org"
-		}
-	],
-	"group1 template": [
-		{
-			"text": "abc",
-			"href": "www"
-		},
-		{
-			"text": "abc",
-			"href": "www"
-		},
-		{
-			"text": "abc",
-			"href": "www"
-		}
-	],
-	"group2 template": [
-		{
-			"text": "abc",
-			"href": "www"
-		},
-		{
-			"text": "abc",
-			"href": "www"
-		},
-		{
-			"text": "abc",
-			"href": "www"
 		}
 	]
 }

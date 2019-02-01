@@ -1,5 +1,6 @@
 {
-	"open source": [{
+	"open source": [
+		{
 			"text": "Brackets",
 			"href": "http://brackets.io"
 		},
@@ -70,10 +71,6 @@
 			"href": "https://plnkr.co"
 		},
 		{
-			"text": "JSON Online Editor",
-			"href": "https://jsoneditoronline.org"
-		},
-		{
 			"text": "FREE FORMATTER.COM",
 			"href": "https://www.freeformatter.com"
 		},
@@ -84,7 +81,11 @@
 		{
 			"text": "JSON Online Editor",
 			"href": "https://jsoneditoronline.org"
-		}
+		},
+		{
+			"text": "JSONLint",
+			"href": "https://jsonlint.com/"
+		},
 	],
 	"cdn cors store": [
 		{

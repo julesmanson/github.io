@@ -1,8 +1,11 @@
 {
-	"open source": [
-		{
+	"open source": [{
 			"text": "Brackets",
 			"href": "http://brackets.io"
+		},
+		{
+			"text": "Visual Studio",
+			"href": "https://visualstudio.microsoft.com/"
 		},
 		{
 			"text": "WAMPSERVER",

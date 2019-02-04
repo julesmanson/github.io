@@ -1,5 +1,4 @@
 {
 	"social" : "<ul class=stack id=social><li><a href=#><ion-icon name=logo-twitter></ion-icon></a></li><li><a href=#><ion-icon name=logo-facebook></ion-icon></a></li><li><a href=#><ion-icon name=logo-reddit></ion-icon></a></li><li><a href=#><ion-icon name=logo-linkedin></ion-icon></a></li><li><a href=#><ion-icon name=logo-github></ion-icon></a></li></ul>",
-	"meta" : " "
-
+	"meta" : "<ul class=stack id=meta><li><a href=#><ion-icon name=menu></ion-icon></a></li><li><a href=#><ion-icon name=settings></ion-icon></a></li><li><a href=#><ion-icon name=hammer></ion-icon></a></li><li><a href=#><ion-icon name=logo-github></ion-icon></a></li></ul>"
 }

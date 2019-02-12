@@ -1,5 +1,5 @@
 {
-	"open source": [
+	"open source" : [
 		{
 			"text": "Brackets",
 			"href": "http://brackets.io"
@@ -17,7 +17,7 @@
 			"href": "https://desktop.github.com"
 		}
 	],
-	"commercial": [
+	"commercial" : [
 		{
 			"text": "Adobe Dreamweaver",
 			"href": "http://www.adobe.com/products/dreamweaver.html"
@@ -31,7 +31,7 @@
 			"href": "http://www.adobe.com/products/photoshop.html"
 		}
 	],
-	"cloud store": [
+	"cloud store" : [
 		{
 			"text": "Google Drive",
 			"href": "https://www.google.com/drive/"
@@ -57,7 +57,7 @@
 			"href": "https://www.icloud.com"
 		}
 	],
-	"online editors": [
+	"online editors" : [
 		{
 			"text": "CODEPEN",
 			"href": "https://codepen.io"
@@ -87,7 +87,7 @@
 			"href": "https://jsonlint.com/"
 		}
 	],
-	"cdn cors store": [
+	"cdn cors store" : [
 		{
 			"text": "JSDelivr Open Source CDN",
 			"href": "https://www.jsdelivr.com"
@@ -101,7 +101,7 @@
 			"href": "https://pages.github.com/"
 		}
 	],
-	"app design": [
+	"app design" : [
 		{
 			"text": "Single page apps in depth",
 			"href": "http://singlepageappbook.com/"
@@ -115,15 +115,11 @@
 			"href": "https://frontendmasters.com/books/front-end-handbook/2017/"
 		},
 		{
-			"text": "Mozilla Technology",
-			"href": "https://www.mozilla.org/en-US/technology/"
-		},
-		{
-			"text": "Smashing Magazine",
-			"href": "https://www.smashingmagazine.com"
+			"text": "WEBCOMPONENTS",
+			"href": "https://www.webcomponents.org"
 		}
 	],
-	"html and css": [
+	"html and css" : [
 		{
 			"text": "Learn CSS Layout",
 			"href": "http://book.mixu.net/css/"
@@ -131,10 +127,6 @@
 			 {
 			"text": "INTERNETING IS HARD",
 			"href": "https://internetingishard.com"
-		},
-		{
-			"text": "WEBCOMPONENTS",
-			"href": "https://www.webcomponents.org"
 		},
 		{
 			"text": "Can I use",
@@ -161,7 +153,7 @@
 			"href": "http://shouldiprefix.com"
 		}
 	],
-	"javascript guides": [
+	"javascript guides" : [
 		{
 			"text": "Dmitry Soshnikov ECMA Script",
 			"href": "https://github.com/getify/You-Dont-Know-JS"
@@ -174,8 +166,7 @@
 			"text": "Mixu's Node book",
 			"href": "http://book.mixu.net/node/"
 		},
-		       
-		       {
+		{
 			"text": "You-Dont-Know-JS",
 			"href": "https://github.com/getify/You-Dont-Know-JS"
 		},
@@ -216,7 +207,7 @@
 			"href": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"
 		}
 	],
-	"github repos": [
+	"github repos" : [
 		{
 			"text": "Awesome List",
 			"href": "https://github.com/sindresorhus/awesome"
@@ -254,7 +245,7 @@
 			"href": "https://github.com/leonardomso/33-js-concepts"
 		}
 	],
-	"web graphics": [
+	"web graphics" : [
 		{
 			"text": "GeoGebra",
 			"href": "http://www.codingmath.com"
@@ -268,7 +259,7 @@
 			"href": "http://www.html5canvastutorials.com"
 		}
 	],
-	"libraries/frameworks": [
+	"libraries/frameworks" : [
 		{
 			"text": "Vanilla Javascript",
 			"href": "http://www.codingmath.com"
@@ -286,7 +277,7 @@
 			"href": "https://ionicons.com/"
 		}
 	],
-	"web standards": [
+	"web standards" : [
 		{
 			"text": "World Wide Web Consortium (W3C)",
 			"href": "https://www.w3.org"
@@ -312,7 +303,7 @@
 			"href": "http://json-schema.org"
 		}
 	],
-	"http & serverside": [
+	"http & serverside" : [
 		{
 			"text": "HTTP Status Codes",
 			"href": "https://www.restapitutorial.com/httpstatuscodes.html#"
@@ -328,25 +319,9 @@
 		{
 			"text": "Cross-Origin Resource Sharing (CORS)",
 			"href": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"
-		},
-		{
-			"text": "Async Response at StackOverflow",
-			"href": "https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call"
-		},
-		{
-			"text": "abc",
-			"href": "www"
-		},
-		{
-			"text": "abc",
-			"href": "www"
-		},
-		{
-			"text": "abc",
-			"href": "www"
 		}
 	],
-	"people & mags": [
+	"people & mags" : [
 		{
 			"text": "LEA VEROU",
 			"href": "http://lea.verou.me"
@@ -382,9 +357,13 @@
 		{
 			"text": "A LIST APART",
 			"href": "https://alistapart.com"
+		},
+		{
+			"text": "Smashing Magazine",
+			"href": "https://www.smashingmagazine.com"
 		}
 	],
-	"learning to code": [
+	"learn to code" : [
 		{
 			"text": "Stack Overflow",
 			"href": "https://stackoverflow.com/"
@@ -400,6 +379,10 @@
 		{
 			"text": "Stack WebApplications",
 			"href": "https://webapps.stackexchange.com/"
+		},
+		{
+			"text": "Mozilla Technology",
+			"href": "https://www.mozilla.org/en-US/technology/"
 		},
 		{
 			"text": "Reddit r/javascript",

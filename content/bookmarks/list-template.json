@@ -27,10 +27,12 @@
     "heading" : "For a single ul or ol list (remove if no heading). Wrapped in p element when used.",
 	"list" : {
 		"tag" : "li or dd",
-		"wrap" : "anchor",
-		"atts" : {
-			"attributes" : "common to all list items else remove this atts",
-			"target" : "_blank"
+		"wrap" : {
+			"tag" : "anchor",
+			"atts" : {
+				"attributes" : "only atts common to all wrapped list items else remove this atts",
+				"target" : "_blank"
+			}
 		},
 		"items" : {
 			"dt title 1 (dl only)": [

@@ -1,0 +1,65 @@
+{
+	"info" : {
+		"title" : "Template For Building HTML Lists",
+		"usage" : "For any ul, ol, or dl one or more lists.",
+		"heading" : "Heading wrapped in p element for non-dl lists",
+		"more on heading" : "Remove heading for no heading.",
+		"still more on heading" : "For dl set heading as list.items.titlename.",
+		"items usage" : "Items is an array of objects unique to each list item",
+		"more on items usage" : "For text only do list.items : {text : my text}",
+		"anchors usage" : "For anchors set list.wrap to: anchor",
+		"more on anchors" : "Set text and href in items array of objects",
+		"still more usage" : "For other wrappers set list.wrap to: tagname",
+		"nearly there" : "For no wrap (i.e. text only) remove list.wrap",
+		"almost there" : "Works with buildList(...args)",
+		"finally" : "Remove this info when in use."
+	},
+	"type" : {
+		"tag" : "ul or ol or dl",
+		"atts" :
+		{
+			"id" : "css-id",
+			"class" : "css classname list",
+			"when-not-to-use" : "remove atts when no atts"
+		}
+	},
+    "heading" : "For a single ul or ol list (remove if no heading). Wrapped in p element when used.",
+	"list" : {
+		"tag" : "li or dd",
+		"wrap" : "anchor",
+		"atts" : {
+			"attributes" : "common to all list items else remove this atts",
+			"target" : "_blank"
+		},
+		"items" : {
+			"dt title 1 (dl only)": [
+				{
+					"can-be-any-attribute" : "remove-this-example-when-in-use",
+					"text": "text only but wrapped in anchor element when list.wrap set to anchor"
+				},
+				{
+					"text": "google.com",
+					"href": "https://www.google.com/"
+				},
+				{
+					"text": "Mozilla",
+					"href": "https://www.mozilla.org/en-US/"
+				}
+			],
+			"dt title 2 (dl only)": [
+				{
+					"text": "CODEPEN",
+					"href": "https://codepen.ioJA"
+				},
+				{
+					"text": "JSONLint",
+					"href": "https://jsonlint.com"
+				},
+				{
+					"text": "Title Capitalization Rules",
+					"href": "https://capitalizemytitle.com/"
+				}
+			]
+		}
+	}
+}

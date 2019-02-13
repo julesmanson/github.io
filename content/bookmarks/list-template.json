@@ -18,9 +18,10 @@
 		"tag" : "ul or ol or dl",
 		"atts" :
 		{
+			"text" : "Text or markup. Parsed as innerHTML.",
 			"id" : "css-id",
 			"class" : "css classname list",
-			"when-not-to-use" : "remove atts when no atts"
+			"when-not-use" : "only list acceptable HTML or DOM attributes"
 		}
 	},
     "heading" : "For a single ul or ol list (remove if no heading). Wrapped in p element when used.",
@@ -35,7 +36,7 @@
 			"dt title 1 (dl only)": [
 				{
 					"can-be-any-attribute" : "remove-this-example-when-in-use",
-					"text": "text only but wrapped in anchor element when list.wrap set to anchor"
+					"text": "text only but wrapped in anchor element if list.wrap is set to anchor"
 				},
 				{
 					"text": "google.com",

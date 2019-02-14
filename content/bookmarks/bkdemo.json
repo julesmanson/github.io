@@ -7,7 +7,7 @@
 	"ext": "true",
 	"data": [{
 			"title": "Definition List Title 1",
-			"items": [{
+			"atts": [{
 					"text": "text only"
 				},
 				{

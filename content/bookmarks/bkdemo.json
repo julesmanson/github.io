@@ -1,10 +1,10 @@
 {
 	"type": "dl",
-	"ext": "true",
-	"atts": {
+	"props": {
 		"id": "demo",
 		"class": "stack deflist"
 	},
+	"ext": "true",
 	"data": [{
 			"title": "Definition List Title 1",
 			"items": [{

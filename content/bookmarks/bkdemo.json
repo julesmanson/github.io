@@ -9,9 +9,7 @@
 	},
 	"items" : {
 		"tag" : "dd",
-		"atts" : {
-				"target" : "_blank"
-			}
+		"flag" : "ext"
 	},
 	"data" : {
 		"Definition List Title 1": [

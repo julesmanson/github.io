@@ -9,7 +9,7 @@
 	},
 	"items" : {
 		"tag" : "dd",
-		"flag" : "ext"
+		"ext" : "true"
 	},
 	"data" : {
 		"Definition List Title 1": [

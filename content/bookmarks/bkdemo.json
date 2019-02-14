@@ -1,43 +1,40 @@
 {
-	"type" : {
-		"tag" : "dl",
-		"atts" :
-			{
-				"id" : "demo",
-				"class" : "stack deflist"
-			}
+	"type": "dl",
+	"ext": "true",
+	"atts": {
+		"id": "demo",
+		"class": "stack deflist"
 	},
-	"items" : {
-		"tag" : "dd",
-		"ext" : "true"
-	},
-	"data" : {
-		"Definition List Title 1": [
-			{
-				"text": "text only"
-			},
-			{
-				"text": "google.com",
-				"href": "https://www.google.com/"
-			},
-			{
-				"text": "Mozilla",
-				"href": "https://www.mozilla.org/en-US/"
-			}
-		],
-		"Definition List Title 2": [
-			{
-				"text": "CODEPEN",
-				"href": "https://codepen.ioJA"
-			},
-			{
-				"text": "JSONLint",
-				"href": "https://jsonlint.com"
-			},
-			{
-				"text": "Title Capitalization Rules",
-				"href": "https://capitalizemytitle.com/"
-			}
-		]
-	}
+	"data": [{
+			"title": "Definition List Title 1",
+			"items": [{
+					"text": "text only"
+				},
+				{
+					"text": "google.com",
+					"href": "https://www.google.com/"
+				},
+				{
+					"text": "Mozilla",
+					"href": "https://www.mozilla.org/en-US/"
+				}
+			]
+		},
+		{
+			"title": "Definition List Title 2",
+			"atts": [{
+					"text": "CODEPEN",
+					"href": "https://codepen.ioJA"
+				},
+				{
+					"text": "JSONLint",
+					"href": "https://jsonlint.com"
+				},
+				{
+					"text": "Title Capitalization Rules",
+					"href": "https://capitalizemytitle.com/"
+				}
+			]
+		}
+	]
 }

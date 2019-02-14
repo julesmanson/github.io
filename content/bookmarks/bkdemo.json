@@ -14,7 +14,7 @@
 			}
 	},
 	"data" : {
-		"dt title 1 (dl only)": [
+		"Definition List Title 1": [
 			{
 				"can-be-any-attribute" : "remove-this-example-when-in-use",
 				"text": "text only but wrapped in anchor element if list.wrap is set to anchor"
@@ -28,7 +28,7 @@
 				"href": "https://www.mozilla.org/en-US/"
 			}
 		],
-		"dt title 2 (dl only)": [
+		"Definition List Title 2": [
 			{
 				"text": "CODEPEN",
 				"href": "https://codepen.ioJA"

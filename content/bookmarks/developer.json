@@ -1,6 +1,7 @@
-{
-	"ext": "true",
-	"atts": {"id": "demo", "class": "stack deflist"},
+{	
+	"type" : "dl",
+	"props": {"id": "demo", "class": "stack deflist"},
+	"ext" : "true",
 	"data": [
 		{"title": "open source", "atts": [
 				{"text": "Brackets", "href": "http://brackets.io"},

@@ -8,11 +8,11 @@
 	"data": [{
 			"title": "Definition List Title 1",
 			"atts": [{
-					"text": "text",
+					"text": "1111",
 					"href": "www"
 				},
 				{
-					"text": "text",
+					"text": "1111",
 					"href": "www"
 				}
 			]
@@ -20,11 +20,11 @@
 		{
 			"title": "Definition List Title 2",
 			"atts": [{
-					"text": "text",
+					"text": "2222",
 					"href": "www"
 				},
 				{
-					"text": "text",
+					"text": "2222",
 					"href": "www"
 				}
 			]

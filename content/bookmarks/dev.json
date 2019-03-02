@@ -48,7 +48,7 @@
 						[
 							{"text": "Single page apps in depth", "href": "http://singlepageappbook.com/"},
 							{"text": "Google Web Fundamentals",	"href": "https://developers.google.com/web/"},
-							{"text": "Front-End Developer Handbook 2017", "href": "https://frontendmasters.com/books/front-end-handbook/2017/"},
+							{"text": "Front-End Dev Handbook", "href": "https://frontendmasters.com/books/front-end-handbook/2017/"},
 							{"text": "WEBCOMPONENTS", "href": "https://www.webcomponents.org"}
 						]
 					},
@@ -139,7 +139,7 @@
 							{"text": "LEA VEROU", "href": "http://lea.verou.me"},
 							{"text": "2ality (Axel Rauschmayer)", "href": "http://2ality.com"},
 							{"text": "meyerweb.com", "href": "https://meyerweb.com"},
-							{"text": "Douglas Crockford's Wrrrld Wide Web",	"href": "https://www.crockford.com"},
+							{"text": "Douglas Crockford",	"href": "https://www.crockford.com"},
 							{"text": "Eric Elliot @Medium",	"href": "https://medium.com/@_ericelliott"},
 							{"text": "DEV.to", "href": "https://dev.to/"},
 							{"text": "https://24ways.org", "href": "24 WAYS"},

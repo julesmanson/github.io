@@ -70,19 +70,19 @@
 						"title" : "javascript guides",
 						"items" :
 						[
-							{"text": "Dmitry Soshnikov ECMA Script", "href": "http://dmitrysoshnikov.com/"},
+							{"text": "Dmitry's ECMA Script", "href": "http://dmitrysoshnikov.com/"},
 							{"text": "You Dont Know JS", "href": "https://github.com/getify/You-Dont-Know-JS"},
 							{"text": "Mixu's Node book", "href": "http://book.mixu.net/node/"},
 							{"text": "You-Dont-Know-JS","href": "https://github.com/getify/You-Dont-Know-JS"},
 							{"text": "Exploring JS", "href": "http://exploringjs.com"},
 							{"text": "Speaking JS",	"href": "http://speakingjs.com"},
-							{"text": "JavaScript Allongé, 6th Edition",	"href": "https://leanpub.com/javascriptallongesix/read"},
-							{"text": "Professor Frisby's Mostly Adequate Guide to Functional Programming", "href": "https://mostly-adequate.gitbooks.io/mostly-adequate-guide"},
+							{"text": "JavaScript Allongé, 6th Ed",	"href": "https://leanpub.com/javascriptallongesix/read"},
+							{"text": "Frisby's Functional Programming", "href": "https://mostly-adequate.gitbooks.io/mostly-adequate-guide"},
 							{"text": "Functional-Light JavaScript", "href": "https://github.com/getify/Functional-Light-JS"},
 							{"text": "REFACTORING GURU (Java)", "href": "https://refactoring.guru/"},
 							{"text": "SOURCE MAKING", "href": "https://sourcemaking.com/"},
 							{"text": "opensource.com Javascript", "href": "https://opensourc.com/tags/javascript"},
-							{"text": "Learning JavaScript Design Patterns", "href": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"}
+							{"text": "Learning JavaScript Patterns", "href": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"}
 						]
 					},
 					{
@@ -124,7 +124,7 @@
 						"title" : "web standards",
 						"items" :
 						[
-							{"text": "World Wide Web Consortium (W3C)",	"href": "https://www.w3.org"},
+							{"text": "W3C Consortium",	"href": "https://www.w3.org"},
 							{"text": "WHATWG Web Standards", "href": "https://whatwg.org/"},
 							{"text": "Standard ECMA-262", "href": "https://www.ecma-international.org/publications/standards/Ecma-262.htm"},
 							{"text": "W3C Document Object Model", "href": "wwwhttps://www.w3.org/DOM/"},
